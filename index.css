@@ -1,6 +1,16 @@
 body {
-  background-color: tomato;
+  background-color: white;
 }
 
 h1 {
+  color: teal;
+  transition: color 1s ease-in-out;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: gold;
 }
